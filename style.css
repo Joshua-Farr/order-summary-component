@@ -141,7 +141,7 @@ a:hover{
 }
 
 
- @media only screen and (max-width: 769px){
+ @media only screen and (min-width: 769px){
     body{
         font-family: 'Red Hat Display', sans-serif;
         background-color: var(--pale-blue);
@@ -156,6 +156,17 @@ a:hover{
         justify-content: center;
       
         
+    }
+
+    .order-summary-card{
+
+        max-width:450px;
+    
+    
+        border-radius: 25px;
+        background-color: white;
+        overflow: hidden;
+        box-shadow: 3px 3px 3px hsl(228,45%,44%,0.15);
     }
 
 } 
