@@ -160,13 +160,17 @@ a:hover{
 
     .order-summary-card{
 
-        max-width:450px;
-    
-    
+        max-width:406px;
         border-radius: 25px;
         background-color: white;
         overflow: hidden;
         box-shadow: 3px 3px 3px hsl(228,45%,44%,0.15);
+    }
+
+    #cancel{
+        font-weight:900;
+        margin-bottom: 50px;
+        font-size: .875rem;
     }
 
 } 
